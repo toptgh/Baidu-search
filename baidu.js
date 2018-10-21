@@ -10,10 +10,7 @@ var baiduInput = (function () {
         },
         event: function () {
             var _this = this;
-            this.$btn.onclick=function(){
-                alert('请在百度搜索一样的词，看看出现的是不是一样');
-                location.href='http://www.baidu.com';
-            }
+           
             this.$searchInp.onfocus = function () {
                 // 如果文本框内容不为空,下拉框展示
                 _this.judgeInput();
